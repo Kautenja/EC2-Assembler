@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B81AC221C0E24E200B95EAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B81AC211C0E24E200B95EAE /* main.cpp */; };
+		9B81AC2D1C0E26F800B95EAE /* ASMFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B81AC2B1C0E26F800B95EAE /* ASMFileReader.cpp */; };
+		9B81AC301C0E273E00B95EAE /* BinaryFileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B81AC2E1C0E273E00B95EAE /* BinaryFileWriter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9B81AC1E1C0E24E200B95EAE /* EC2Assembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EC2Assembler; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81AC211C0E24E200B95EAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9B81AC2B1C0E26F800B95EAE /* ASMFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASMFileReader.cpp; sourceTree = "<group>"; };
+		9B81AC2C1C0E26F800B95EAE /* ASMFileReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ASMFileReader.hpp; sourceTree = "<group>"; };
+		9B81AC2E1C0E273E00B95EAE /* BinaryFileWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryFileWriter.cpp; sourceTree = "<group>"; };
+		9B81AC2F1C0E273E00B95EAE /* BinaryFileWriter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryFileWriter.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				9B81AC211C0E24E200B95EAE /* main.cpp */,
+				9B81AC2B1C0E26F800B95EAE /* ASMFileReader.cpp */,
+				9B81AC2C1C0E26F800B95EAE /* ASMFileReader.hpp */,
+				9B81AC2E1C0E273E00B95EAE /* BinaryFileWriter.cpp */,
+				9B81AC2F1C0E273E00B95EAE /* BinaryFileWriter.hpp */,
 			);
 			path = EC2Assembler;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B81AC2D1C0E26F800B95EAE /* ASMFileReader.cpp in Sources */,
 				9B81AC221C0E24E200B95EAE /* main.cpp in Sources */,
+				9B81AC301C0E273E00B95EAE /* BinaryFileWriter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
