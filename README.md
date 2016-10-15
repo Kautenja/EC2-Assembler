@@ -5,7 +5,9 @@
 * Date Created: Sept, 2015
 * Version: 0.1
 * Language: C++
-* Requires: g++, Make
+* Requires: 
+  * g++
+  * Make
 
 ### Contributors ###
 * James Christian Kauten (@Kautenja)
@@ -21,6 +23,7 @@ This project aims to explore the process of assembling basic assembly level inst
 
 ![ISA](instruction_set_architecture.png)
 
+After you've assembled some code, check out my [EC-2 Simulator](https://github.com/Kautenja/comp3350_EC2-Simulator) to simulate your program from the command line.
 
 ## Compilation ##
 
