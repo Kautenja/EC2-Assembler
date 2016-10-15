@@ -25,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9028C35C1DB23B20004D9169 /* hardware.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardware.png; sourceTree = "<group>"; };
+		9028C35D1DB23B20004D9169 /* instruction_set_architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instruction_set_architecture.png; sourceTree = "<group>"; };
+		9028C35E1DB23B20004D9169 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B81AC1E1C0E24E200B95EAE /* EC-2 Assembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EC-2 Assembler"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81AC211C0E24E200B95EAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9B81AC2B1C0E26F800B95EAE /* ASMFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASMFileReader.cpp; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		9B81AC151C0E24E200B95EAE = {
 			isa = PBXGroup;
 			children = (
+				9028C35C1DB23B20004D9169 /* hardware.png */,
+				9028C35D1DB23B20004D9169 /* instruction_set_architecture.png */,
+				9028C35E1DB23B20004D9169 /* README.md */,
 				9B81AC201C0E24E200B95EAE /* EC2Assembler */,
 				9B81AC1F1C0E24E200B95EAE /* Products */,
 			);
@@ -249,6 +255,7 @@
 				9B81AC271C0E24E200B95EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
