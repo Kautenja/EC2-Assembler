@@ -15,9 +15,9 @@ The EC-2 (Enoch's Computer #2) is a toy microprocessor featuring a single byte i
 
 ![Hardware](harware.png)
 
-The Instructio Set Architecture to parse looks like this:
+The Instruction Set Architecture to parse looks like this:
 
-![Data Path](datapath.png)
+![ISA](instruction_set_architecture.png)
 
 
 ## Compilation ##
