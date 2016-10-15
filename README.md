@@ -13,7 +13,7 @@
 
 The EC-2 (Enoch's Computer #2) is a toy microprocessor featuring a single byte instruction set. The hardware design is equally as simple:
 
-![Hardware](harware.png)
+![Hardware](hardware.png)
 
 The Instruction Set Architecture to parse looks like this:
 
