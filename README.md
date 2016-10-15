@@ -26,15 +26,15 @@ The Instruction Set Architecture to parse looks like this:
 
 In a terminal in the root directory with the terminal type:
 
-  g++ -o ec2Assembler main.cpp ASMFileReader.cpp BinaryFileWriter.cpp
+    g++ -o ec2Assembler main.cpp ASMFileReader.cpp BinaryFileWriter.cpp
   
   
 ## Execution ##
   
-  ./ec2Assembler <assembly_file> <binary_file>
+    ./ec2Assembler <assembly_file> <binary_file>
   
 ### Example ###
 
-  ./ec2Assembler palindrome.asm palindrome.o
+    ./ec2Assembler palindrome.asm palindrome.o
 
 
