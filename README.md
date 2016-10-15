@@ -29,7 +29,7 @@ In a terminal in the root directory with the terminal type:
   
 ## Execution ##
   
-  ./ec2Assembler <assembly file> <binary file>
+  ./ec2Assembler <assembly_file> <binary_file>
   
 ### Example ###
 
