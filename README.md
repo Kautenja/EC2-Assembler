@@ -38,6 +38,6 @@ In a terminal in the root directory with the terminal type:
   
 ### Example ###
 
-    ./ec2Assembler palindrome.asm palindrome.o
+    ./ec2Assembler code.asm code.o
 
 
