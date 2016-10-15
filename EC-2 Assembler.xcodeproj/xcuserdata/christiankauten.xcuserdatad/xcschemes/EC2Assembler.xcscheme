@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B81AC1D1C0E24E200B95EAE"
-               BuildableName = "EC2Assembler"
-               BlueprintName = "EC2Assembler"
-               ReferencedContainer = "container:EC2Assembler.xcodeproj">
+               BuildableName = "EC-2 Assembler"
+               BlueprintName = "EC-2 Assembler"
+               ReferencedContainer = "container:EC-2 Assembler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B81AC1D1C0E24E200B95EAE"
-            BuildableName = "EC2Assembler"
-            BlueprintName = "EC2Assembler"
-            ReferencedContainer = "container:EC2Assembler.xcodeproj">
+            BuildableName = "EC-2 Assembler"
+            BlueprintName = "EC-2 Assembler"
+            ReferencedContainer = "container:EC-2 Assembler.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,11 +56,21 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B81AC1D1C0E24E200B95EAE"
-            BuildableName = "EC2Assembler"
-            BlueprintName = "EC2Assembler"
-            ReferencedContainer = "container:EC2Assembler.xcodeproj">
+            BuildableName = "EC-2 Assembler"
+            BlueprintName = "EC-2 Assembler"
+            ReferencedContainer = "container:EC-2 Assembler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/christiankauten/Desktop/06-fib.asm"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Users/christiankauten/Desktop/fib.bin"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -75,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B81AC1D1C0E24E200B95EAE"
-            BuildableName = "EC2Assembler"
-            BlueprintName = "EC2Assembler"
-            ReferencedContainer = "container:EC2Assembler.xcodeproj">
+            BuildableName = "EC-2 Assembler"
+            BlueprintName = "EC-2 Assembler"
+            ReferencedContainer = "container:EC-2 Assembler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9B81AC1E1C0E24E200B95EAE /* EC2Assembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EC2Assembler; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B81AC1E1C0E24E200B95EAE /* EC-2 Assembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EC-2 Assembler"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81AC211C0E24E200B95EAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9B81AC2B1C0E26F800B95EAE /* ASMFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASMFileReader.cpp; sourceTree = "<group>"; };
 		9B81AC2C1C0E26F800B95EAE /* ASMFileReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ASMFileReader.hpp; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		9B81AC1F1C0E24E200B95EAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B81AC1E1C0E24E200B95EAE /* EC2Assembler */,
+				9B81AC1E1C0E24E200B95EAE /* EC-2 Assembler */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B81AC1D1C0E24E200B95EAE /* EC2Assembler */ = {
+		9B81AC1D1C0E24E200B95EAE /* EC-2 Assembler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B81AC251C0E24E200B95EAE /* Build configuration list for PBXNativeTarget "EC2Assembler" */;
+			buildConfigurationList = 9B81AC251C0E24E200B95EAE /* Build configuration list for PBXNativeTarget "EC-2 Assembler" */;
 			buildPhases = (
 				9B81AC1A1C0E24E200B95EAE /* Sources */,
 				9B81AC1B1C0E24E200B95EAE /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = EC2Assembler;
+			name = "EC-2 Assembler";
 			productName = EC2Assembler;
-			productReference = 9B81AC1E1C0E24E200B95EAE /* EC2Assembler */;
+			productReference = 9B81AC1E1C0E24E200B95EAE /* EC-2 Assembler */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B81AC191C0E24E200B95EAE /* Build configuration list for PBXProject "EC2Assembler" */;
+			buildConfigurationList = 9B81AC191C0E24E200B95EAE /* Build configuration list for PBXProject "EC-2 Assembler" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B81AC1D1C0E24E200B95EAE /* EC2Assembler */,
+				9B81AC1D1C0E24E200B95EAE /* EC-2 Assembler */,
 			);
 		};
 /* End PBXProject section */
@@ -219,21 +219,21 @@
 		9B81AC261C0E24E200B95EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "EC-2 Assembler";
 			};
 			name = Debug;
 		};
 		9B81AC271C0E24E200B95EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "EC-2 Assembler";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B81AC191C0E24E200B95EAE /* Build configuration list for PBXProject "EC2Assembler" */ = {
+		9B81AC191C0E24E200B95EAE /* Build configuration list for PBXProject "EC-2 Assembler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B81AC231C0E24E200B95EAE /* Debug */,
@@ -242,7 +242,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B81AC251C0E24E200B95EAE /* Build configuration list for PBXNativeTarget "EC2Assembler" */ = {
+		9B81AC251C0E24E200B95EAE /* Build configuration list for PBXNativeTarget "EC-2 Assembler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B81AC261C0E24E200B95EAE /* Debug */,

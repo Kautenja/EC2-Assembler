@@ -21,5 +21,9 @@ int main(int argc, char *argv[])
         ASMFileReader asmFile = ASMFileReader(argv[1]);
         BinaryFileWriter binFile = BinaryFileWriter(argv[2], asmFile.getBytes());
     }
+    else
+    {
+        std::cout << "ERROR: commands must be in the format: ec2assembler <ASM file> <BIN file>" << std::endl;
+    }
     return 0;
 }

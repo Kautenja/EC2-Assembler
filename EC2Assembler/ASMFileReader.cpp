@@ -60,7 +60,7 @@ bool ASMFileReader::generateVector()
                 bytes.push_back(HALT);
             }
             // Commands with address
-            else if ( current.find(A_COM) != string::npos )
+            else if ( current.find(A_COM) != string::npos || current.find(CMD_JZ) || current.find(CMD_JNNEG) )
             {
                 if ( current.find(CMD_LOAD) == 0 )
                 {
@@ -97,7 +97,12 @@ bool ASMFileReader::generateVector()
                     current.replace(0, current.find_first_of("1"), "");
                 }
                 string address = current.substr(current.find_first_not_of(" "),5);
-                bytes.at(bytes.size()-1) = bytes.at(bytes.size()-1) + convertToInt(address);
+                //bytes.at(bytes.size()-1) = bytes.at(bytes.size()-1) + convertToInt(address);
+                
+
+                std::bitset<5> x(address);
+                bytes.at(bytes.size()-1) = bytes.at(bytes.size()-1) + (unsigned int)x.to_ullong();
+                
             }
         }
     }
