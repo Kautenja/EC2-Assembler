@@ -4,6 +4,8 @@
 
 * Date Created: Sept, 2015
 * Version: 0.1
+* Language: C++
+* requires: g++
 
 ### Contributors ###
 * James Christian Kauten (@Kautenja)
