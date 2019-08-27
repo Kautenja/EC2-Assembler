@@ -1,19 +1,4 @@
-# EC2 Assembler #
-
-## Preamble ##
-
-* Date Created: Sept, 2015
-* Version: 0.1
-* Language: C++
-* Requires: 
-  * g++
-  * Make
-
-### Contributors ###
-* James Christian Kauten (@Kautenja)
-
-
-## Description 
+# EC2 Assembler
 
 The EC-2 (Enoch's Computer #2) is a toy microprocessor designed by [Enoch Hwang](https://lasierra.edu/computer-science/enoch-hwang/). The machine is purely for academic purposes and follows this hardware design:
 
@@ -25,19 +10,25 @@ This project aims to explore the process of assembling basic assembly level inst
 
 After you've assembled some code, check out my [EC-2 Simulator](https://github.com/Kautenja/comp3350_EC2-Simulator) to simulate your program from the command line.
 
-## Compilation ##
+## Usage
+
+### Compilation
 
 In a terminal in the root directory with the terminal type:
 
-    g++ -o ec2Assembler main.cpp ASMFileReader.cpp BinaryFileWriter.cpp
+```shell
+g++ -o ec2Assembler main.cpp ASMFileReader.cpp BinaryFileWriter.cpp
+```
   
-  
-## Execution ##
-  
-    ./ec2Assembler <assembly_file> <binary_file>
-  
-### Example ###
+### Execution
 
-    ./ec2Assembler code.asm code.o
+```shell
+./ec2Assembler <assembly_file> <binary_file>
+```
 
+#### Example
+
+```shell
+./ec2Assembler code.asm code.o
+```
 
